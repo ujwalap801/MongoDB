@@ -4,7 +4,9 @@
 A database is an organized collection of data that allows for efficient manipulation and access.
 
 ## MongoDB
-MongoDB is a NoSQL database that stores data in flexible, JSON-like documents. JSON (JavaScript Object Notation) is a text-based, human-readable data interchange format used to exchange data between web clients and web servers. This structure makes it easy to scale and handle large volumes of unstructured data.
+MongoDB is a NoSQL database that stores data in flexible, JSON-like documents.
+While MongoDB stores data in a flexible, JSON-like structure, it actually uses BSON (Binary JSON) format to store data internally.
+JSON (JavaScript Object Notation) is a text-based, human-readable data interchange format used to exchange data between web clients and web servers. This structure makes it easy to scale and handle large volumes of unstructured data.
 
 ### Key Concepts
 
