@@ -82,7 +82,7 @@ CREATE TABLE Orders (
 ### Document Example:
 
 ### JSON Document:
-``json
+```json
 {
     "_id": 1,
     "name": "John Doe",
