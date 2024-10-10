@@ -45,7 +45,6 @@ This example demonstrates how to store information about users and their orders 
 ### Users Table
 The `Users` table stores user information such as `id`, `name`, and `email`.
 
-```sql
 CREATE TABLE Users (
     id INT PRIMARY KEY,
     name VARCHAR(50),
@@ -59,7 +58,6 @@ CREATE TABLE Users (
 This example demonstrates the creation of an `Orders` table in **MySQL**, which establishes a relationship with the `Users` table using a **foreign key**. This enforces a structured relationship between users and their orders.
 
 ### SQL Code:
-```sql
 CREATE TABLE Orders (
     id INT PRIMARY KEY,
     user_id INT,
@@ -67,11 +65,10 @@ CREATE TABLE Orders (
     FOREIGN KEY (user_id) REFERENCES Users(id)
 );
 
-
 This example demonstrates the creation of an `Orders` table in **MySQL**, which establishes a relationship with the `Users` table using a **foreign key**. This enforces a structured relationship between users and their orders.
 
 SQL Code:
-```sql
+
 CREATE TABLE Orders (
     id INT PRIMARY KEY,
     user_id INT,
