@@ -13,15 +13,15 @@ A database is an organized collection of data that allows for efficient manipula
 - **Fields**: A field is a key-value pair within a document, comparable to a column in a relational database.
 
 # MySQL
-## MySQL is a relational database management system (RDBMS) that stores data in structured tables using rows and columns.
-## It follows the SQL (Structured Query Language) standard and uses a fixed schema, meaning the structure of the data (columns) must be defined before inserting any data.
-## MySQL enforces relationships between tables using foreign keys and supports complex queries involving joins.
+### MySQL is a relational database management system (RDBMS) that stores data in structured tables using rows and columns.
+### It follows the SQL (Structured Query Language) standard and uses a fixed schema, meaning the structure of the data (columns) must be defined before inserting any data.
+### MySQL enforces relationships between tables using foreign keys and supports complex queries involving joins.
 
 # MongoDB
 
-## MongoDB, on the other hand, is a NoSQL database that stores data in a flexible, document-oriented format. 
-## Instead of tables, MongoDB stores data in JSON-like documents called BSON (Binary JSON).
-## MongoDB does not require a predefined schema, allowing for more flexibility, which makes it suitable for applications with rapidly changing data structures or unstructured data.
+### MongoDB, on the other hand, is a NoSQL database that stores data in a flexible, document-oriented format. 
+### Instead of tables, MongoDB stores data in JSON-like documents called BSON (Binary JSON).
+### MongoDB does not require a predefined schema, allowing for more flexibility, which makes it suitable for applications with rapidly changing data structures or unstructured data.
 
 
 
