@@ -77,7 +77,7 @@ CREATE TABLE Orders (
 );
 
 
-# MongoDB: The same data can be stored in a more flexible way, where each user document can include their orders directly within the same document (denormalized).
+### MongoDB: The same data can be stored in a more flexible way, where each user document can include their orders directly within the same document (denormalized).
 
 ### Document Example:
 
