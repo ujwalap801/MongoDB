@@ -68,6 +68,7 @@ CREATE TABLE Orders (
 This example demonstrates the creation of an `Orders` table in **MySQL**, which establishes a relationship with the `Users` table using a **foreign key**. This enforces a structured relationship between users and their orders.
 
 SQL Code:
+``sql
 CREATE TABLE Orders (
     id INT PRIMARY KEY,
     user_id INT,
@@ -80,6 +81,8 @@ CREATE TABLE Orders (
 
 ### Document Example:
 
+### JSON Document:
+``json
 {
     "_id": 1,
     "name": "John Doe",
