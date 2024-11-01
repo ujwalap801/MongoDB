@@ -19,14 +19,14 @@ To sort documents in a MongoDB collection, you can use the `sort()` method. This
 
 To sort the documents by the `model` field in ascending order, you can use the following command:
 
-```javascript
+
 db.cars.find({}, { _id: 0, model: 1 }).sort({ model: 1 }); // Ascending
 
 ## Sort in Descending Order
 
 To sort the documents by the `year` field in descending order, use the following command:
 
-```javascript
+
 db.cars.find().sort({ year: -1 }); // Sort by year in descending order
 
 
@@ -38,7 +38,7 @@ To limit the number of documents returned by a cursor in MongoDB, you can use th
 
 To limit the results to 5 documents, use the following command:
 
-```javascript
+
 db.cars.find().limit(5);
 
 
@@ -50,5 +50,5 @@ To skip a specified number of documents in MongoDB, you can use the `skip()` met
 
 To skip the first 10 documents and return the rest, use the following command:
 
-```javascript
+
 db.cars.find().skip(10);

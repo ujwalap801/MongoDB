@@ -2,7 +2,7 @@
 
 To concatenate the `maker` and `model` fields for cars made by Hyundai, use the following aggregation pipeline:
 
-```javascript
+
 db.cars.aggregate([
     { $match: { maker: "Hyundai" } },
     { $project: { _id: 0, CarName: { $concat: ["$maker", " ", "$model"] } } }

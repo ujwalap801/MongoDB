@@ -44,7 +44,6 @@ This section describes how to update the `cars` collection in MongoDB to enforce
 
 To modify the `cars` collection and add validation rules, you can run the following command in the MongoDB shell:
 
-```javascript
 db.runCommand({
   collMod: "cars",
   validator: {

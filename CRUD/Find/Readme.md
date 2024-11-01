@@ -5,7 +5,7 @@
 To retrieve documents from a collection based on a specified query, use the `find()` method.
 
 ### Syntax
-```javascript
+
 db.collection.find({ field: value })
 
 
@@ -14,7 +14,6 @@ db.collection.find({ field: value })
 In MongoDB, projection refers to selecting specific fields from a document when performing a query. This allows you to control which fields you want to include or exclude from the result set. By default, MongoDB returns all fields from a document when querying, but you can use projections to limit the output.
 
 ### Syntax
-```javascript
 db.collection.find(query, projection)
 
 
@@ -43,7 +42,7 @@ db.cars.find({}, { make: 1, model: 1, _id: 0 })
 
 ### Result
 
-```json
+
 [
   { "make": "Tesla", "model": "Model S" },
   { "make": "Toyota", "model": "Camry" },
@@ -56,7 +55,6 @@ db.cars.find({}, { make: 1, model: 1, _id: 0 })
 To find nested data in MongoDB, you can query specific fields inside a nested document by using dot notation. Dot notation allows you to refer to fields inside a nested document or array.
 
 ### Syntax for Accessing Nested Fields
-```javascript
 db.collection.find({ "parentField.childField": "value" })
 
 
@@ -67,7 +65,7 @@ db.collection.find({ "parentField.childField": "value" })
 - **value**: The value you want to search for.
 
 ### Examples
-1. ```javascript
+1. 
    db.cars.find({ "specifications.battery": "100 kWh" })
 
 ### Example Query for Nested Fields
